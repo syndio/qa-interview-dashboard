@@ -1,0 +1,25 @@
+.demographicStats {
+    padding: 24px;
+    background: #FFF;
+
+    label {
+        font-size: 12pt;
+        color: #666;
+    }
+
+    p {
+        font-size: 18pt;
+        color: #000;
+    }
+
+    //small breakpoint
+    @media screen and (max-width: 420px) {
+        label {
+            font-size: 10pt;
+        }
+
+        p {
+            font-size: 14pt;
+        }
+    }
+} //END demographicStats

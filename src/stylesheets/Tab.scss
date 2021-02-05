@@ -1,0 +1,30 @@
+.tab {
+    height: 41px;
+    width: 200px;
+    font-size: 14pt;
+    border: none;
+    outline: none;
+    
+    &.tab-active {
+        background: #F8F8F8;
+        border: 1px solid #E7E7E7;
+        border-bottom: none;
+        color: #2E2E2E;
+        cursor: default;
+    }
+
+    &.tab-inactive {
+        background: transparent;
+        cursor: pointer;
+        color: #666;
+
+        &:hover {
+            background: #EFEFEF;
+        }
+    }
+
+    //small breakpoint
+    @media screen and (max-width: 420px) {
+        width: 125px;
+    }
+} //End tab

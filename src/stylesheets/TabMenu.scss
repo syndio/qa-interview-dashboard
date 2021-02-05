@@ -1,0 +1,37 @@
+.tabMenu {
+    .tabList {
+        display: flex;
+        padding-left: 24px;
+        margin-bottom: 0;
+        
+        li {
+            list-style-type: none;
+
+            &:last-child:after {
+                content: "";
+                padding: 3px 0;
+                border-right: 1px solid #e7e7e7;
+                margin-left: -1px;
+            }
+        }
+    } //END tabList
+
+    .content {
+        padding: 24px;
+        background: #F8F8F8;
+        margin-top: -1px;
+        border-top: 1px solid #E7E7E7;
+    }
+
+    //small breakpoint
+    @media screen and (max-width: 420px) {
+        .tabList {
+            padding-left: 12px;
+            overflow: auto;
+        }
+
+        .content {
+            padding: 12px;
+        }
+    }
+} //END tabMenu

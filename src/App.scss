@@ -1,0 +1,55 @@
+.app {
+  background: #F2F2F2;
+  height: 100vh;
+  width: 100%;
+
+  .tabMenu {
+    margin-top: 20px;
+
+    .content {
+      padding-bottom: 200px;
+    }
+  }
+
+  .demographicsTab {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .demographicStats {
+    flex: 1 1 0px;
+    min-width: 300px;
+  }
+
+  .error {
+    color: #CA2323;
+    font-size: 18pt;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  //small breakpoint
+  @media screen and (max-width: 420px) {
+    .demographicsTab {
+        gap: 12px;
+    }
+
+    .content {
+        padding: 12px;
+    }
+  }
+
+  //large breakpoint
+  @media screen and (max-width: 767px) {
+    .demographicStats {
+      min-width: 200px;
+
+      p {
+        font-size: 16pt;
+      }
+    } 
+  }
+} //END App

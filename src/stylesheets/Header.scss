@@ -1,0 +1,24 @@
+.header {
+    height: 70px;
+    background: #373737;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+    .logo {
+        height: 50%;
+    }
+
+    //small breakpoint
+    @media screen and (max-width: 420px) {
+        height: 140px;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+
+        .logo {
+            height: 25%;
+        }
+    }
+} //END header
