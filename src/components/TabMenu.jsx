@@ -40,7 +40,7 @@ class TabMenu extends React.Component {
                 const activeTab = this.state.activeTab || this.props.tabs[0].id;
 
                  return (
-                    <li key={`tab-${tab.id}`}>
+                    <li key={`tab-${tab.id}`} id={`tab-${tab.id}`} >
                         <Tab
                             label={tab.label}
                             id={tab.id}

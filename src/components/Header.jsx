@@ -28,7 +28,7 @@ const Header = ({groups = [], activeGroup, onUpdateGroup}) => {
     const location = useLocation();
 
     const groupOptions = groups.map(group => {
-        return { label: group.label, value: group.id };
+        return { label: group.label, value: group.id, id: group.id };
     });
 
     /** Calls onUpdateGroup callback and updates group query param in url with active group id  */

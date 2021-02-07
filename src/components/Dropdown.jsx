@@ -63,8 +63,8 @@ class Dropdown extends React.Component {
         const { options, label } = this.props;
         let optionNodes = options.map(option => {
             return  (selected === option.value || option.disabled) 
-                ? <li key={option.value} className="disabled">{option.label}</li>
-                : <li key={option.value} onClick={() => this._onSelectOption(option.value)}>{option.label}</li>;
+                ? <li key={option.value} id={option.id} className="disabled">{option.label}</li>
+                : <li key={option.value} id={option.id} onClick={() => this._onSelectOption(option.value)}>{option.label}</li>;
         })
 
         if (label) {
@@ -91,6 +91,7 @@ class Dropdown extends React.Component {
             <div className="dropdown">
                 <button 
                     className={`toggle ${optionsVisible ? 'active' : ''}`} 
+                    id="dropdown-button"
                     onClick={this._toggleOptionsVisible}
                 >
                     <span>{label}</span><img src={chevron} alt="" />
