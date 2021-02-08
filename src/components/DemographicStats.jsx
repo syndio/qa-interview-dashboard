@@ -33,7 +33,7 @@ const DemographicStats = ({id, label, data = {}}) => {
     }
     
     return (
-        <div className="demographicStats">
+        <div className="demographicStats" id={id}>
             <label>{label}</label>
             { statistic }
         </div>
