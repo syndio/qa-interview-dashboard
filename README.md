@@ -28,10 +28,10 @@ Use an automated UI test framework that tests the Dashboard. The original specs 
 
 
 
-*   Using any open source tools and language you would like, please write automated end-to-end tests for this feature. These should be the tests you consider most critical for testing this feature.
+*   Using Javascript or Python open source tool of your choosing, please write automated end-to-end tests for this feature. These should be the tests you consider most critical for testing this feature.
 *   Write manual test cases for anything that won’t be caught by the automation.
 *   Document any bugs you find.
-*   Please package your submission as you would package any code that you'd like to hand off to another developer — runnable and testable.
+*   Please package your submission as you would package any code that you'd like to hand off to another developer — runnable and testable. Also please share a screencast of your e2e test.
 *   Remember to include a README that tells us how to run your code!
 
 
