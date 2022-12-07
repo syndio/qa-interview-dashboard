@@ -2,11 +2,6 @@
 
 For this QA technical take-home challenge, you will QA a simple Syndio dashboard. (Note that the dashboard has intentional issues.) This is not a timed exercise, but we do not expect it to take much of your time.
 
-
-### <span style="text-decoration:underline;">Instructions to run the dashboard</span>
-
-You have two options to run the dashboard.
-
 ### Instructions to run the dashboard
 
 To run locally you must first install Node. For the required version see package.json. After installing Node and cloning this repo the following commands will get you up and running.
