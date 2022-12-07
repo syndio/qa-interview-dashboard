@@ -1,6 +1,6 @@
 ## Overview
 
-For this QA technical take-home challenge, you will QA a simple Syndio dashboard. (Note that the dashboard has intentional issues.) This is not a timed exercise, but we do not expect it to take much of your time.
+For this QA technical take-home challenge, you will QA a simple Syndio dashboard. (Note that the dashboard has intentional issues.) This is not a timed exercise, and we do not expect it to take much of your time.
 
 ### Instructions to run the dashboard
 
