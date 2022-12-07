@@ -1,21 +1,15 @@
 ## Overview
 
-For this QA technical take-home challenge, you will QA a simple Syndio dashboard. (Note that the dashboard has intentional issues.) This is not a timed exercise, but you should spend no more than 3 hours on your project.
+For this QA technical take-home challenge, you will QA a simple Syndio dashboard. (Note that the dashboard has intentional issues.) This is not a timed exercise, but we do not expect it to take much of your time.
 
 
 ### <span style="text-decoration:underline;">Instructions to run the dashboard</span>
 
 You have two options to run the dashboard.
 
-### Option 1. Heroku Deployment
+### Instructions to run the dashboard
 
-The following button allows you to deploy this application directly to Heroku for free. It's a very quick way to get this up and running without installing anything locally.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-### Option 2: Running Locally
-
-To run locally you must first install Node. For the required version see `package.json`. After installing Node and cloning this repo the following commands will get you up and running.
+To run locally you must first install Node. For the required version see package.json. After installing Node and cloning this repo the following commands will get you up and running.
 
 1. `npm install` (install the requirements)
 2. `npm start` (start the application locally)
